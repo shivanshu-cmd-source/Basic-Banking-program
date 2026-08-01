@@ -2,4 +2,19 @@
 Banking System: Lightweight C++ application implementing OOPs, file streams (fstream), and live ledger logging.
 
 ✨ Key Features & HighlightsObject-
-Oriented Architecture (OOP): Built using core C++ OOP concepts like Encapsulation to protect sensitive account parameters (e.g., balance, account details) from direct external access.  Persistent Transaction Logging: Utilizes standard file streams (ofstream) with persistent append flags (ios::app) to record continuous transaction histories (Bank_DB.txt) without data corruption or loss.  Universal Transaction Engine: Designed with code reusability in mind—a single dynamic logging function (logTransaction) handles both deposits and withdrawals seamlessly.  Interactive Command-Line Interface (CLI): Features an intuitive user menu wrapped in a continuous session loop, allowing multiple transactions in a single run.  Zero External Dependencies: Relies entirely on native, built-in C++ standard libraries (iostream, fstream), making it lightweight and easy to compile across any compiler (GCC/G++, MinGW)
+# Basic-Banking-program
+
+Banking System: Lightweight C++ application implementing OOPs, file streams (`fstream`), and live ledger logging.
+
+### ✨ Key Features & Highlights
+
+* **Object-Oriented Architecture (OOP):** Built using core C++ OOP concepts like Encapsulation...
+* **Persistent Transaction Logging:** Utilizes standard file streams (`ofstream`)...
+* **Universal Transaction Engine:** Single dynamic logging function (`logTransaction`)...
+* **Interactive CLI:** Intuitive user menu wrapped in a continuous session loop...
+* **Zero External Dependencies:** Relies entirely on native C++ standard libraries...
+
+### 🚀 How to Run
+```bash
+g++ Bank_DB.cpp -o bank_app
+./bank_app
